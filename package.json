@@ -1,0 +1,16 @@
+{
+  "name": "invisible-vc-bot",
+  "version": "1.0.0",
+  "description": "Discord selfbot that refreshes a voice channel connection every 24 hours.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.16.0",
+    "discord.js-selfbot-v13": "^3.7.1",
+    "express": "^4.18.2",
+    "libsodium-wrappers": "^0.8.0"
+  }
+}
